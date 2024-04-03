@@ -1,0 +1,46 @@
+@font-face {
+  src: url(fonts/Cleopatra.ttf);
+  font-family: cleopatra;
+}
+
+body {
+  margin: 0;
+  color: #a46639;
+  text-align: center;
+  font-family: cleopatra, sans-serif;
+}
+
+#hero-section {
+  background-image: url(images/desert.jpg);
+  background-size: cover;
+  padding: 20px 0 40px 0;
+  text-shadow: 2px 0px 2px #4e3326;
+  min-height: 80vh;
+}
+
+#logo {
+  width: 70px;
+  color: #a46639;
+}
+
+.underline {
+  border-bottom: 5px double hsl(0, 0%, 100%);
+}
+
+.cta-btn {
+  font-weight: 800;
+  color: #ffffff;
+  background-color: #865840;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: cleopatra, sans-serif;
+  text-shadow: inherit;
+  letter-spacing: 4px;
+}
+
+.cta-btn:hover {
+  cursor: pointer;
+  font-size: medium;
+  background-color: #4d3428;
+}
